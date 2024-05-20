@@ -4,5 +4,5 @@
 
 class CustomAccumulator {
 public:
-    static long parallel(std::vector<int>::iterator begin,std::vector<int>::iterator end);
+    static long parallel(std::vector<long>::iterator begin, std::vector<long>::iterator end);
 };

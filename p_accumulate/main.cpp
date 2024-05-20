@@ -7,16 +7,18 @@
 #include <boost/math/special_functions.hpp>
 
 int main() {
-    /*
-    std::vector<int> vec = {1,2,3,4,5,6};
+    
+    std::vector<long> vec;
+    long num_values = 100000;
 
-    for (int i = 0; i < vec.size(); ++i) {
-        std::cout << vec[i] << "\n";
+    for (long i = 0; i < num_values; ++i) {
+        vec.push_back(i);
     }
-    std::cout << "here" << *vec.begin() << std::endl;
-    long ans = C_Accumulate::parallel(vec.begin(),vec.end());
-    std::cout << "ans: " << ans << std::endl;
-    */
+
+    long ans = CustomAccumulator::parallel(vec.begin(),vec.end());
+    std::cout << "Single threaded Ans: " << std::accumulate(vec.begin(),vec.end(),0) << std::endl;;
+    std::cout << "Parallel Ans: " << ans << std::endl;
+    
 
 
     return 0;
