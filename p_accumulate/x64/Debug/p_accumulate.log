@@ -1,0 +1,5 @@
+﻿  custom_accumulator.cpp
+  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\execution(12): warning STL4038: The contents of <execution> are available only with C++17 or later.
+  Generating Code...
+C:\Users\User\Desktop\cpp\p_accumulate\p_accumulate\main.cpp(6,10): error C1083: Cannot open include file: 'c_accumulate.h': No such file or directory
