@@ -9,14 +9,14 @@
 int main() {
     
     std::vector<long> vec;
-    long num_values = 100000;
+    long num_values = 500000;
 
     for (long i = 0; i < num_values; ++i) {
         vec.push_back(i);
     }
 
-    long ans = CustomAccumulator::parallel(vec.begin(),vec.end());
-    std::cout << "Single threaded Ans: " << std::accumulate(vec.begin(),vec.end(),0) << std::endl;;
+    long long ans = CustomAccumulator::parallel(vec.begin(),vec.end());
+    std::cout << "Single threaded Ans: " << std::accumulate(vec.begin(),vec.end(),0ll) << std::endl;;
     std::cout << "Parallel Ans: " << ans << std::endl;
     
 

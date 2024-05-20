@@ -1,2 +1,3 @@
-﻿  main.cpp
+﻿  custom_accumulator.cpp
+C:\Users\User\Desktop\cpp\p_accumulate\p_accumulate\custom_accumulator.cpp(16,20): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
   p_accumulate.vcxproj -> C:\Users\User\Desktop\cpp\p_accumulate\x64\Debug\p_accumulate.exe
